@@ -1,0 +1,125 @@
+div.off{
+    width: 95%;
+    height: 500px;
+    position: absolute;
+    left: calc(50% - (95% / 2));
+    top: 5150px;
+    padding: 0 12px;
+    padding-bottom: 20px;
+    border: 1px solid #e0e0e6 ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    z-index: -1;
+    text-align: center;
+
+}
+div.off>svg{
+    position: absolute;
+    top: 15px;
+    right: 480px;
+    fill: #ef4056;
+}
+div.off>h2{
+    font-size: 23px;
+    font-weight: 300;
+    font-family: digikala;
+   top: 20px;
+}
+div.off>a{
+    font-size: 18px;
+    position: absolute;
+    font-size: 15px;
+    color: #19bfd3;
+    padding-left: 16px;
+    bottom: 20px;
+    right: 600px;
+    font-weight: 400;}
+
+
+    div.off>div.parts{
+        width: 100%;
+        height: 410px;
+        position: absolute;
+        right: 0;
+
+    }
+    div.off>div>div{
+        width: 180px;
+        height: 200px;
+        padding: 0 5px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        border-left: 1px solid #e0e0e6;
+        border-bottom: 1px solid #e0e0e6;
+    }
+    div.off>div>div:nth-of-type(7), div.off>div>div:nth-of-type(14){
+        border-left: 0px solid #e0e0e6;
+
+    }
+
+
+    div.off>div.parts>div>a{
+        width: auto;
+        height: auto;
+        padding: 2px;
+        display: inline-block;
+      }
+div.off>div.parts>div>a>img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    position: absolute;
+    right: calc(50% - (150px / 2));
+    top: 0%;
+}
+div.off>div.parts>div>div.discount{
+
+    width: 34px;
+    height: 20px;
+    background-color: #ef394e;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: absolute;
+    bottom: 22px;
+    text-align: center;
+    line-height: 20px;
+    right: 0;
+}
+
+div.off>div.parts>div>div.discount>span.disdis{
+    font-size: 14px;
+    font-family: digikala;
+    color: white;
+  }
+
+  div.off>div.parts>div>span{
+ 
+  font-size: 20px;
+  font-weight: 600;
+  font-family: digikala;
+  position: absolute;
+  bottom: 13px;
+  color: #3f4064;
+  left: 20px;
+  }
+  div.off>div.parts>div>svg{
+
+  position: absolute;
+  bottom: 23px;
+  left: 1px;
+}
+div.off>div.parts>div>del{
+    position: absolute;
+    bottom: 0px;
+    color: #c3c3ce;
+    font-size: 15px;
+    font-family: digikala;
+    left: 20px;
+}

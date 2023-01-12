@@ -1,0 +1,213 @@
+div.bestsell {
+  width: 95%;
+  height: 402px;
+  border: 1px solid #e0e0e6;
+  position: absolute;
+  left: calc(50% - (95% / 2));
+  top: 4550px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 16px 0;
+  text-align: center;
+  z-index: -1;
+}
+div.bestsell > svg {
+  fill: #f9a825;
+  position: absolute;
+  right: 530px;
+  top: 28px;
+}
+div.bestsell > h2 {
+  font-size: 23px;
+  font-weight: 300;
+  font-family: digikala;
+}
+div.bestsell > a {
+  position: absolute;
+  font-size: 15px;
+  left: 0px;
+  color: #19bfd3;
+  padding-left: 16px;
+  top: 22px;
+  font-weight: 400;
+}
+div.bestsell > div.swipbest {
+  width: 100%;
+  height: 340px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+div.bestsell > div.swipbest.swiper-container {
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  bottom: 16px;
+}
+
+div.bestsell > div.swipbest.swiper-slide {
+  /* text-align: center;
+    font-size: 18px;
+    background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+div.bestsell > div.swipbest.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.bestsell > div.swipbest.swiper-container {
+  width: 100%;
+  height: inherit;
+}
+
+div.bestsell > div.swipbest.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.bestsell > div.swipbest.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #000000;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div {
+  width: inherit;
+  height: 100px;
+  position: absolute;
+  padding: 8px;
+  line-height: 100px;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div
+  > div.text {
+  width: 290px;
+  height: inherit;
+  position: absolute;
+  left: 8px;
+  top: 0;
+  padding: 8px;
+  text-align: right;
+  line-height: 100px;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div
+  > div.text
+  > p {
+  font-size: 13px;
+  font-family: digikala;
+  color: #3f4064;
+  position: absolute;
+  top: 0;
+}
+
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div
+  > img {
+  width: 86px;
+  height: 86px;
+  object-fit: contain;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div
+  > span.number {
+  font-size: 36px;
+  position: absolute;
+  right: 100px;
+  color: #19bfd3;
+  margin-left: 12px;
+  top: 0;
+  font-weight: 800;
+}
+
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div:nth-of-type(1) {
+  top: 0;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div:nth-of-type(2) {
+  top: 100px;
+}
+div.bestsell
+  > div.swipbest
+  > div.swiper-container
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > a
+  > div:nth-of-type(3) {
+  top: 200px;
+}

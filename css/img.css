@@ -1,0 +1,14 @@
+img.qablame{
+    width: 95%;
+    height: 163px;
+    object-fit: contain;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: absolute;
+    top: 4970px;
+    left: calc(50% - (95% / 2 ));
+    z-index: -1;
+}

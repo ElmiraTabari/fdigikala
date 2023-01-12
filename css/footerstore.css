@@ -1,0 +1,78 @@
+div.store {
+  width: 95%;
+  height: 215px;
+  position: absolute;
+  padding: 32px 0;
+  top: 6700px;
+  border-top: 1px solid #e0e0e6;
+  z-index: -1;
+  left: calc(50% - (95% / 2));
+  text-align: left;
+}
+div.store > div:nth-of-type(1) {
+  width: 710px;
+  height: 150px;
+  margin-left: 40px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - (150px / 2));
+  text-align: right;
+}
+
+div.store > div:nth-of-type(1) > h1 {
+  font-size: 16px;
+  font-family: digikala;
+  font-weight: 200;
+  margin-bottom: 8px;
+}
+div.store > div:nth-of-type(1) > p {
+  font-size: 14px;
+  font-family: digikala;
+  margin-bottom: 8px;
+  color: #767790;
+}
+div.store > div:nth-of-type(1) > a {
+  font-size: 12px;
+  color: #5a5c7a;
+  font-weight: 400;
+}
+div.store > a > div.pic {
+  width: 107px;
+  height: 107px;
+  padding: 16px;
+  border: 1px solid #e0e0e6;
+  display: inline-block;
+  /*float: left;
+    */
+  margin-right: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+div.store > a > div.pic > img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+div.last {
+  width: 95%;
+  height: 88px;
+  position: absolute;
+  padding: 32px 0;
+  top: 6940px;
+  border-top: 1px solid #e0e0e6;
+  z-index: -1;
+  left: calc(50% - (95% / 2));
+  text-align: center;
+  font-size: 12px;
+  font-family: digikala;
+  color: #767790;
+}
+a.lastpic > img {
+  position: absolute;
+  top: 7040px;
+}
